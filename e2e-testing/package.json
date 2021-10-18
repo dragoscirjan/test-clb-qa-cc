@@ -1,0 +1,15 @@
+{
+  "name": "e2e-testing",
+  "version": "1.0.0",
+  "description": "UI tests - Calin Cosmin",
+  "main": "server.js",
+  "scripts": {
+    "language-test": "testcafe firefox e2e/tests/web-page/language.test.ts",
+    "search-test": "testcafe firefox e2e/tests/web-page/search.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "node-fetch": "^3.0.0",
+    "testcafe": "^1.16.1"
+  }
+}

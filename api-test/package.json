@@ -1,0 +1,19 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "API tests - Calin Cosmin",
+  "scripts": {
+    "delete-messages": "mocha delete-messages.js",
+    "get-users": "mocha get-users.js",
+    "get-messages": "mocha get-messages.js",
+    "post-messages": "mocha post-messages.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
+}
