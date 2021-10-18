@@ -4,8 +4,8 @@
   "description": "UI tests - Calin Cosmin",
   "main": "server.js",
   "scripts": {
-    "language-test": "testcafe firefox e2e/tests/web-page/language.test.ts",
-    "search-test": "testcafe firefox e2e/tests/web-page/search.test.ts"
+    "language-test": "testcafe chrome e2e/tests/web-page/language.test.ts",
+    "search-test": "testcafe chrome  e2e/tests/web-page/search.test.ts"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
